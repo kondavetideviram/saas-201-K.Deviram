@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form to view all details of a department</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>FETCH DEPARTMENT DETAILS</h1>
+    <form>
+      <label for="department">Department:</label>
+      <div >
+          <select class="option" id="select Department">
+          <option value="eee">EEE</option>
+          <option value="mech">MECH</option>
+          <option value="cse">CSE</option>
+          <option value="civil">CIVIL</option>
+        </select>
+      </div>
+      <br></br>
+      <label for="sec">Section:</label>
+      <div>
+          <select class="option" id="select section">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+      </div>
+    <a class = "button1" href="view_details.html">Go Back</a>
+    <input  onclick="show()" type="submit" value="Get List">
+  </form>
+  </body>
+</html>
