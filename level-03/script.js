@@ -15,13 +15,13 @@
   var disableDuplicateSecondaryDepartment = function() {
     for(var i=0;i<department2.length;i++)
     {
-      if(department2.options[i].value==department1.value)
+      if(department2.options[i].value===department1.value)
           department2.options[i].disabled=true;
       else
           department2.options[i].disabled=false;
     }
     department2.selectedIndex=1;
-    if(department1.selectedIndex==1)
+    if(department1.selectedIndex===1)
       department2.selectedIndex=2;
   }
 
